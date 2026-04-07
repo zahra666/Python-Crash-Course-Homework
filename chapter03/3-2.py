@@ -1,7 +1,7 @@
-names = ['David','Herry','Army']
-message1 = "hello " + names[0]
+names = ['donna','mica','nina']
+message1 = f"hello {names[0].title()}"
 print(message1)
-message1 = "hello " + names[1]
-print(message1)
-message1 = "hello " + names[2]
-print(message1)
+message2 = f"hello {names[0].title()"
+print(message2)
+message3 = f"hello {names[0].title()"
+print(message3)
