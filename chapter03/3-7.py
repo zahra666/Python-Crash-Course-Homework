@@ -10,16 +10,18 @@ names.insert(2,'Lianlian')
 names.append('Niannian')
 print(names)
 
+#pop进行删除
 names_pop1 = names.pop()
-print(names_pop1)
+print(f"Sorry, {names_pop1}, I cannot invite you.")
 names_pop2 = names.pop()
-print(names_pop2)
+print(f"Sorry, {names_pop2}, I cannot invite you.")
 names_pop3 = names.pop()
-print(names_pop3)
+print(f"Sorry, {names_pop3}, I cannot invite you.")
 names_pop4 = names.pop()
-print(names_pop4)
+print(f"Sorry, {names_pop4}, I cannot invite you.")
 
-print(names)
+print(f"names[0], you are still invited.")
+print(f"names[1], you are still invited.")
 
 del names[1]
 print(names)
