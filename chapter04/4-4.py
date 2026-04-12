@@ -1,2 +1,2 @@
-numbers = list(range(1,101))
+numbers = list(range(1,1 000 001))
 print(numbers)
